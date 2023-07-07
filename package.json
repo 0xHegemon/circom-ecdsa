@@ -7,6 +7,8 @@
     "build:pubkeygen": "cd ./scripts/pubkeygen && ./build_pubkeygen.sh",
     "build:groupsig": "cd ./scripts/groupsig && ./build_groupsig.sh",
     "build:testgroupsig": "cd ./scripts/groupsig && ./test_groupsig.sh",
+    "build:groupsig4": "cd ./scripts/groupsig4 && ./build_groupsig4.sh",
+    "build:testgroupsig4": "cd ./scripts/groupsig4 && ./test_groupsig4.sh",
     "build:verify": "cd ./scripts/verify && ./build_verify.sh",
     "build:eth_addr": "cd ./scripts/eth_addr && ./build_eth_addr.sh",
     "test": "NODE_OPTIONS=--max_old_space_size=56000 mocha -r ts-node/register 'test/**/*.ts'",
